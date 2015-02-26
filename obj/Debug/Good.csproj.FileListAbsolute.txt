@@ -1,0 +1,6 @@
+c:\users\ярик\documents\visual studio 2013\Projects\Good\Good\bin\Good.dll.config
+c:\users\ярик\documents\visual studio 2013\Projects\Good\Good\bin\Good.dll
+c:\users\ярик\documents\visual studio 2013\Projects\Good\Good\bin\Good.pdb
+c:\users\ярик\documents\visual studio 2013\Projects\Good\Good\obj\Debug\Good.dll
+c:\users\ярик\documents\visual studio 2013\Projects\Good\Good\obj\Debug\Good.pdb
+C:\Users\Ярик\documents\visual studio 2013\Projects\Good\Good\obj\Debug\Good.csprojResolveAssemblyReference.cache

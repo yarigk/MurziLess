@@ -1,0 +1,48 @@
+@x: 20px;
+@color1: #b200ff;
+@fontS: 25px;
+@color2: fadeout(#ffffff, 80%);
+body{
+    background: linear-gradient(#ff6a00 20%, #808080 50%, #000 100%);
+}
+
+.prop1(@param1: #b6ff00,@param2: @x){
+    background: @param1;
+    margin-left: @param2;
+}
+
+.prop2 {
+    background: #ff6a00;
+    padding:@x/2 @x/4 @x @x;
+}
+
+.first{
+    background: @color1;
+    padding-left:@x*10;
+    ul{
+        padding:0;
+        margin:0;
+        li{
+            list-style:none;
+        }
+    }
+}
+
+.second{
+    .prop2;
+}
+
+.third{
+    font-size: @fontS;
+    background: @color2;
+}
+
+#item-1 {
+   
+    .prop1(#00ffff,@x*2);
+}
+
+#item-2 {
+    .prop1;
+    background: fadeout(@color1, 80%);
+}
